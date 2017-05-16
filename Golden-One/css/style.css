@@ -1,0 +1,796 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    width: 1400px;
+    height: 700px;
+    background: url(../img/home/bg.png);
+}
+ 
+.background {
+	background:  rgba(0,0,0,.5);
+ 	width: 1400px;
+ 	height: 700px;
+}
+
+.background a {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	margin:  0 0 0 40px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: arial;
+}
+
+.background .logo {
+	margin: 44px 0 0 237px;
+}
+
+.menu {
+	width: 530px;
+	margin: 55px 0 0 334px;
+	display: inline-block;
+}
+
+.background .wel {
+	width: 430px;
+	height: 32px;
+	color: #ffffff;
+	font-size: 40px;
+	font-style: italic;
+	margin: 220px 0 0 487px;
+}
+
+.background .its {
+	width: 920px;
+	height: 55px;
+	color: #fff;
+	font-size: 75px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 52px 0 0 239px;
+}
+
+.background button {
+	width: 240px;
+	height: 65px;
+	border-radius: 5px;
+	background-color: #fed136;
+	color: #fff;
+	border: none;
+	margin: 59px 0 0 581px;
+}
+
+.services {
+	width: 1400px;
+	height: 568px;
+}
+
+.services .h1 {
+	width: 296px;
+	height: 66px;
+	margin: 120px 0 0 549px;
+}
+
+.services .title1 {
+	color: #222;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	
+	
+}
+
+.services .title2 {
+	color: #777;
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
+}
+
+.services .block {
+    width: 274px;
+    height: 187px;
+    margin: 77px 0 0 233px;
+    display: inline-block;
+}
+
+.services .block img {
+    margin: 0 35%;
+}
+
+.services .block .title {
+    width: 115px;
+    height: 14px;
+    color: #222;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 26px auto 0 auto;
+}
+
+.services .block .text {
+    width: 273px;
+    height: 57px;
+    color: #777;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 26px auto 0 auto;
+}
+
+
+
+
+.services .block1 {
+    width: 274px;
+    height: 187px;
+     margin: 77px 0 0 56px;
+    display: inline-block;
+}
+
+.services .block1 img {
+    margin: 0 35%;
+}
+
+.services .block1 .title {
+    width: 130px;
+    height: 14px;
+    color: #222;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 26px auto 0 auto;
+}
+
+.services .block1 .text {
+    width: 273px;
+    height: 57px;
+    color: #777;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 26px auto 0 auto;
+}
+
+
+.services .block2 {
+    width: 274px;
+    height: 187px;
+    margin: 77px 0 0 56px;
+    display: inline-block;
+}
+
+.services .block2 img {
+    margin: 0 35%;
+}
+
+.services .block2 .title {
+    width: 115px;
+    height: 14px;
+    color: #222;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 26px auto 0 auto;
+}
+
+.services .block2 .text {
+    width: 273px;
+    height: 57px;
+    color: #777;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 26px auto 0 auto;
+}
+
+.portfolio {
+    width: 1400px;
+    height: 1218px;
+    background: url(../img/portfolio/background.png);
+}
+
+.portfolio .title {
+    width: 328px;
+    height: 66px;
+    margin: 0 0 0 537px;
+    padding: 120px 0 0 0;
+}
+
+.title .our {
+    width: 328px;
+    height: 30px;
+    color: #222;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.title .proin {
+    width: 328px;
+    height: 17px;
+    color: #777;
+    font-family: "Droid Serif";
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    margin: 19px 0 0 0;
+}
+
+.portfolio .content1 {
+    background: #fff;
+    width: 290px;
+    height: 393px;
+    display: inline-block;
+    margin: 76px 0 0 230px;
+}
+
+.content1 .title1 {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 29px;
+}
+
+.content1 .title2 {
+    color: #737373;
+    font-family: "Droid Serif";
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.portfolio .content2 {
+    background: #fff;
+    width: 290px;
+    height: 393px;
+    display: inline-block;
+    margin: 0 0 0 35px;
+}
+
+.content2 .title1 {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 29px;
+}
+
+.content2 .title2 {
+    color: #737373;
+    font-family: "Droid Serif";
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.portfolio .content3 {
+    background: #fff;
+    width: 290px;
+    height: 393px;
+    display: inline-block;
+    margin: 0 0 0 35px;
+}
+
+.content3 .title1 {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 29px;
+}
+
+.content3 .title2 {
+    color: #737373;
+    font-family: "Droid Serif";
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.portfolio .content4 {
+    background: #fff;
+    width: 290px;
+    height: 393px;
+    display: inline-block;
+    margin: 50px 0 0 230px;
+}
+
+.content4 .title1 {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 29px;
+}
+
+.content4 .title2 {
+    color: #737373;
+    font-family: "Droid Serif";
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.portfolio .content5 {
+    background: #fff;
+    width: 290px;
+    height: 393px;
+    display: inline-block;
+    margin: 0 0 0 35px;
+}
+
+.content5 .title1 {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 29px;
+}
+
+.content5 .title2 {
+    color: #737373;
+    font-family: "Droid Serif";
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.portfolio .content6 {
+    background: #fff;
+    width: 290px;
+    height: 393px;
+    display: inline-block;
+    margin: 0 0 0 35px;
+}
+
+.content6 .title1 {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 29px;
+}
+
+.content6 .title2 {
+    color: #737373;
+    font-family: "Droid Serif";
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.about_us {
+    width: 1400px;
+    height: 1666px;
+}
+
+.about_us .head {
+    margin: 120px 0 0 552px;
+    width: 295px;
+    height: 66px;
+}
+
+.about_us .head .title1 {
+    color: #222;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.about_us .head .title2 {
+    color: #777777;
+    font-family: "Droid Serif";
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+.content .container1 {
+    width: 307px;
+    height: 161px;
+    margin: 78px 0 0 263px;
+}
+
+.container1 .title {
+    color: #222;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.container1 .text {
+    color: #777;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+    margin-top: 17px;
+}
+
+.content .container2 {
+    width: 305px;
+    height: 122px;
+    margin: 120px 0 0 831px;
+}
+
+.container2 .title {
+    color: #222;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.container2 .text {
+    color: #777;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 17px;
+}
+
+.content .container3 {
+    width: 306px;
+    height: 140px;
+    margin: 150px 0 0 264px;
+}
+
+.container3 .title {
+    color: #222;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.container3 .text {
+    color: #777;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+    margin-top: 17px;
+}
+
+.content .container4 {
+    width: 308px;
+    height: 161px;
+    margin: 140px 0 0 829px;
+}
+
+.container4 .title {
+    color: #222;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.container4 .text {
+    color: #777;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 17px;
+}
+
+.content .picture {
+    position: absolute;
+    margin: 0 0 0 609px;
+}
+
+.team {
+    width: 1400px;
+    height: 818px;
+    background-color: #f9f9f9;
+}
+
+.team .head {
+    width: 430px;
+    height: 90px;
+    margin: 0 0 0 501px;
+    padding-top: 100px;
+}
+
+.team .head .title1 {
+    color: #222;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    width: 430px;
+    height: 30px;
+}
+
+.team .head .title2 {
+    color: #777777;
+    font-family: "Droid Serif";
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.team .block1 {
+    width: 234px;
+    height: 342px;
+    margin: 77px 0 0 303px;
+    display: inline-block;
+}
+
+.team .block1 .title1 {
+    color: #222;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+}
+
+.team .block1 .title2 {
+    color: #777;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.twit, .f, .gplus {
+    margin: 10px 1px 0 11px;
+}
+
+.twit {
+    margin-left: 38px;
+}
+
+.team .block2 {
+    width: 234px;
+    height: 342px;
+    margin: 77px 0 0 46px;
+    display: inline-block;
+}
+
+.team .block2 .title1 {
+    color: #222;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+}
+
+.team .block2 .title2 {
+    color: #777;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.team .block3 {
+    width: 234px;
+    height: 342px;
+    margin: 77px 0 0 46px;
+    display: inline-block
+}
+
+.team .block3 .title1 {
+    color: #222;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+}
+
+.team .block3 .title2 {
+    color: #777;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.team .text {
+    width: 600px;
+    height: 41px;
+    margin: 51px 0 0 397px;
+    text-align: center;
+    color: #777;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.con {
+    width: 1400px;
+    height: 164px;
+}
+
+.im1 {
+    display: inline-block;
+    margin: 67px 39px 67px 320px;
+}
+
+.im2 {
+    display: inline-block;
+    margin: 61px 39px 61px 0;
+}
+
+.im3 {
+    display: inline-block;
+    margin: 61px 39px 61px 0;
+}
+
+.im4 {
+    display: inline-block;
+    margin: 60px 0px;
+}
+
+.contact {
+    background: url(../img/contact_as/background.png) no-repeat;
+    width: 1400px;
+    height: 676px;
+}
+
+.wrapper {
+    background: url(../img/contact_as/map.png) no-repeat;
+    width: 614px;
+    height: 646px;
+    float: right;
+    position: relative;
+}
+
+form {
+    position: absolute;
+}
+
+.name, .email, .name1, .textarea, .submit {
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #bbb;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 0 0 20px;
+}
+
+.contact .head {
+    width: 296px;
+    height: 70px;
+    margin: 0 0 0 549px;
+    padding-top: 110px; 
+    position: absolute;
+}
+
+.contact .title1 {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact .title2 {
+    color: #777;
+    font-family: "Droid Serif";
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+.contact .name {
+    width: 437px;
+    height: 52px;
+    margin: 255px 0 0 229px;
+    position: absolute;
+}
+
+.contact .email {
+    width: 437px;
+    height: 52px;
+    margin: 334px 0 0 229px;
+    position: absolute;
+}
+
+.contact .name1 {
+    width: 437px;
+    height: 52px;
+    margin: 415px 0 0 229px;
+    position: absolute;
+}
+
+.contact .textarea {
+    width: 437px;
+    height: 191px;
+    margin: 255px 0 0 714px;
+    position: absolute;
+    padding: 20px 0 0 20px;
+}
+
+.contact .submit {
+    width: 240px;
+    height: 65px;
+    border-radius: 2px;
+    background-color: #fed136;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 496px 0 0 580px;
+}
+
+.footer {
+    width: 1400px;
+    height: 90px;
+}
+
+.footer .text {
+    color: #555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 34px 0 0 230px;
+    position: absolute;
+}
+
+.footer .t, .footer .fe, .footer .g {
+    display: inline-block;
+    margin: 20px 0 0 5px;
+}
+
+.footer .t {
+    margin: 0 0 0 635px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
