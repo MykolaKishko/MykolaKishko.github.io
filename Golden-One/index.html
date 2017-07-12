@@ -1,180 +1,215 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
 <head>
     <meta charset="UTF-8">
     <title>Golden-One Web Tamplate</title>
     <link rel="stylesheet" href="css/style.css">
-   
+    <link rel="stylesheet" href="css/animate.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.js"></script> 
+    <script type="text/javascript" src="js/wow.min.js"></script>  
 </head>
 <body>
-    <div class="home" id="home">       
-        <div class="background">
-            <img class="logo" src="img/header/logo.png" alt="">
-            <div class="menu">
-                <a class="ahome" href="#home">HOME</a>
-                <a href="#services">SERVICES</a>
-                <a href="#portfolio">PORTFOLIO</a>
-                <a href="#about">ABOUT</a>
-                <a href="#contact">CONTACT</a>
+    <div id="arr"><strong><a id="up" href="#home">Up</a></strong></div>
+    <div id="header" class="clearfix">
+        <div class="container">
+            <div class="logo"><a href="#"><img src="img/logo.png" alt="" /></a></div>
+            <ul class="nav" id="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="home" mame="home">
+        <div class="container wow fadeIn">
+            <h3>Welcome To Our Studio!</h3>
+            <h1>It’s nice to Meet you</h1>
+            <a href="#" class="btn btn-warning">Tell me more</a>
+        </div>
+   </div>
+   <div class="services" id="services">
+        <div class="wrap">  
+            <div class="title1 wow fadeIn" data-wow-offset="100"><p>Services</p></div>
+            <div class="title2 wow fadeIn" data-wow-offset="100"><p>Proin iaculis purus consequat sem cure.</p></div>       
+            <div class="block wow zoomIn" data-wow-offset="150" >
+                <img src="img/services/icon1.png" alt="">
+                <p class="title">E-Commerce</p>
+                <p class="text">Proin iaculis purus consequat sem cure
+                digni ssim. Donec porttitora entum suscipit 
+                aenean rhoncus posuere odio in tincidunt.</p>
             </div>
-            <p class="wel">Welcome To Our Studio!</p>
-            <p class="its">IT’S NICE TO MEET YOU</p>
-            <button>TELL ME MORE</button>
+            <div class="block1 wow zoomIn" data-wow-offset="150" data-wow-delay="0.15s">
+                <img src="img/services/icon2.png" alt="">
+                <p class="title">Responsive Web</p>
+                <p class="text">Proin iaculis purus consequat sem cure
+                digni ssim. Donec porttitora entum suscipit 
+                aenean rhoncus posuere odio in tincidunt.</p>
+            </div>
+            <div class="block2 wow zoomIn" data-wow-offset="150" data-wow-delay="0.3s">
+                <img src="img/services/icon3.png" alt="">
+                <p class="title">Web Security</p>
+                <p class="text">Proin iaculis purus consequat sem cure
+                digni ssim. Donec porttitora entum suscipit 
+                aenean rhoncus posuere odio in tincidunt.</p>
+            </div>
         </div>
-    </div>
-    <div class="services" id="services">
-        <div class="h1">
-           <p class="title1">SEVICES</p>
-           <P class="title2">Proin iaculis purus consequat sem cure.</P>
-        </div> 
-        <br>
-        <div class="block">
-            <img src="img/services/icon1.png" alt="">
-            <p class="title">E-Commerce</p>
-            <p class="text">Proin iaculis purus consequat sem cure
-            digni ssim. Donec porttitora entum suscipit 
-            aenean rhoncus posuere odio in tincidunt.</p>
-        </div>
-        <div class="block1">
-            <img src="img/services/icon2.png" alt="">
-            <p class="title">Responsive Web</p>
-            <p class="text">Proin iaculis purus consequat sem cure
-            digni ssim. Donec porttitora entum suscipit 
-            aenean rhoncus posuere odio in tincidunt.</p>
-        </div>
-         <div class="block2">
-            <img src="img/services/icon3.png" alt="">
-            <p class="title">Web Security</p>
-            <p class="text">Proin iaculis purus consequat sem cure
-            digni ssim. Donec porttitora entum suscipit 
-            aenean rhoncus posuere odio in tincidunt.</p>
-        </div>
-    </div>
+    </div>    
     <div class="portfolio" id="portfolio">
-        <div class="title">
-            <p class="our">Our portfolio</p>
-            <p class="proin">Proin iaculis purus consequat sem cure. </p>
-        </div>
-        <div class="content1">
-            <img class="picture" src="img/portfolio/image1.png" alt="">
-            <div class="title1">Ebony & Ivory</div>
-            <div class="title2">Branding</div>
-        </div>
-        <div class="content2">
-            <img class="picture" src="img/portfolio/image2.png" alt="">
-            <div class="title1">Smart Stationary</div>
-            <div class="title2">Print Design</div>
-        </div>
-        <div class="content3">
-            <img class="picture" src="img/portfolio/image3.png" alt="">
-            <div class="title1">Clever Poster</div>
-            <div class="title2">Print Design</div>
-        </div>
-        <div class="content4">
-            <img class="picture" src="img/portfolio/image4.png" alt="">
-            <div class="title1">Vinyl Record</div>
-            <div class="title2">Product Mock-Up</div>
-        </div>
-        <div class="content5">
-            <img class="picture" src="img/portfolio/image5.png" alt="">
-            <div class="title1">Treehouse Template</div>
-            <div class="title2">Web Design</div>
-        </div>
-        <div class="content6">
-            <img class="picture" src="img/portfolio/image6.png" alt="">
-            <div class="title1">Burned Logo</div>
-            <div class="title2">Branding</div>
-        </div>    
-    </div>
-    <div class="about_us" id="about">
-        <div class="head">
-            <p class="title1"><b>About Us</b></p>
-            <p class="title2">Proin iaculis purus consequat sem cure.</p>
-        </div>
-        <div class="content">
-           <img src="img/about_as/img.png" alt="" class="picture">
-            <div class="container1">
+        <div class="wrap">
+                <p class="our wow fadeIn" data-wow-offset="100" >Our portfolio</p>
+                <p class="proin wow fadeIn" data-wow-offset="100" >Proin iaculis purus consequat sem cure. </p>
+            <div class="content1 wow zoomIn" data-wow-offset="200">
+                <img class="picture" src="img/portfolio/image1.png" alt="">
+                <div class="title1">Ebony & Ivory</div>
+                <div class="title2">Branding</div>
+            </div>
+            <div class="content2 wow zoomIn" data-wow-offset="200">
+                <img class="picture" src="img/portfolio/image2.png" alt="">
+                <div class="title1">Smart Stationary</div>
+                <div class="title2">Print Design</div>
+            </div>
+            <div class="content3 wow zoomIn" data-wow-offset="200">
+                <img class="picture" src="img/portfolio/image3.png" alt="">
+                <div class="title1">Clever Poster</div>
+                <div class="title2">Print Design</div>
+            </div>
+            <div class="content4 wow zoomIn" data-wow-offset="200">
+                <img class="picture" src="img/portfolio/image4.png" alt="">
+                <div class="title1">Vinyl Record</div>
+                <div class="title2">Product Mock-Up</div>
+            </div>
+            <div class="content5 wow zoomIn" data-wow-offset="200">
+                <img class="picture" src="img/portfolio/image5.png" alt="">
+                <div class="title1">Treehouse Template</div>
+                <div class="title2">Web Design</div>
+            </div>
+            <div class="content6 wow zoomIn" data-wow-offset="200">
+                <img class="picture" src="img/portfolio/image6.png" alt="">
+                <div class="title1">Burned Logo</div>
+                <div class="title2">Branding</div>
+            </div>  
+        </div>     
+    </div>    
+     <div class="about_us" id="about">
+         <div class="wrap">
+            <p class="title1 wow fadeIn" data-wow-offswt="100"><b>About Us</b></p>
+            <p class="title2 wow fadeIn" data-wow-offswt="100">Proin iaculis purus consequat sem cure.</p>
+            <div class="container1 wow zoomIn" data-wow-offset="100">
                 <p class="title">July 2010<br> Our Humble Beginnings</p>
                 <p class="text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
             </div>
-            <div class="container2">
+            <img src="img/about_as/image1.png" alt="">
+            <div class="hr"></div>
+            <div class="container2 wow zoomIn" data-wow-offset="100">
                <p class="title">January 2011<br>Facing Startup Battles</p>
                <p class="text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p> 
             </div>
-            <div class="container3">
+            <img src="img/about_as/image2.png" alt="">
+            <div class="hr"></div>
+            <img src="img/about_as/image3.png" alt="">
+            <div class="container3 wow zoomIn" data-wow-offset="100">
                 <p class="title">December 2012<br>Enter The Dark Days</p>
                 <p class="text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni.</p>
             </div>
-            <div class="container4">
-                <p class="title">february 2014<br>Our Triumph</p>
-                <p class="text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean.</p>
+                <div class="hr"></div>
+            <div class="container4 wow zoomIn" data-wow-offset="100">
+                <p class="title">Febrary 2014 <br>Our Triumph</p>
+                <p class="text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean.</p>              
             </div>
+            <img src="img/about_as/image4.png" alt="">
+            <div class="hr"></div>
+            <img src="img/about_as/im5.png" alt="">
+            <p class="t"> OUR <br> STORY <br> CONTINUES ...</p>   <br> 
         </div>
     </div>
     <div class="team">
-        <div class="head">
-            <p class="title1">our amazing team</p>
-            <p class="title2">Proin iaculis purus consequat sem cure.</p>
+        <div class="wrap">
+            <p class="title1 wow fadeIn" data-wow-offset="100">our amazing team</p>
+            <p class="title2 wow fadeIn" data-wow-offset="100">Proin iaculis purus consequat sem cure.</p>     
+            <div class="block1 wow fadeIn" data-wow-offset="200" data-wow-delay="0.9s">
+                <img src="img/our_amazing_team/bg.png" alt="" class="photo">
+                <p class="title1">Kimberly Thompson</p>
+                <p class="title2">Marketer</p>
+                <div class="container">
+                    <img src="img/our_amazing_team/twit.png" alt="" class="twit">
+                    <img src="img/our_amazing_team/f.png" alt="" class="f">
+                    <img src="img/our_amazing_team/g+.png" alt="" class="gplus">
+                </div>
+            </div>
+            <div class="block2 wow slideInUp" data-wow-offset="200">
+                <img src="img/our_amazing_team/bg.png" alt="" class="photo">
+                <p class="title1">Rico Massimo</p>
+                <p class="title2">Coder</p>
+                <div class="container">
+                    <img src="img/our_amazing_team/twit.png" alt="" class="twit">
+                    <img src="img/our_amazing_team/f.png" alt="" class="f">
+                    <img src="img/our_amazing_team/g+.png" alt="" class="gplus">
+                </div>
+            </div>
+            <div class="block3 wow fadeIn" data-wow-offset="200" data-wow-delay="0.9s">
+                <img src="img/our_amazing_team/bg.png" alt="" class="photo">
+                <p class="title1">Uku Mason</p>
+                <p class="title2">Graphic Designer</p>
+                <div class="container">
+                    <img src="img/our_amazing_team/twit.png" alt="" class="twit">
+                    <img src="img/our_amazing_team/f.png" alt="" class="f">
+                    <img src="img/our_amazing_team/g+.png" alt="" class="gplus">
+                </div>
+            </div>
+            <p class="text">Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt proin iaculis.</p>
         </div>
-        <div class="block1">
-            <img src="img/our_amazing_team/bg.png" alt="" class="photo">
-            <p class="title1">Kimberly Thompson</p>
-            <p class="title2">Marketer</p>
-            <img src="img/our_amazing_team/twit.png" alt="" class="twit">
-            <img src="img/our_amazing_team/f.png" alt="" class="f">
-            <img src="img/our_amazing_team/g+.png" alt="" class="gplus">
+    </div>
+    <div class="emblem">
+        <div class="wrap">
+            <img src="img/our_amazing_team/envato.png" alt="" class="im1">
+            <img src="img/our_amazing_team/wordpress.png" alt="" class="im2">
+            <img src="img/our_amazing_team/tuts-.png" alt="" class="im3">
+            <img src="img/our_amazing_team/microlancer-copy.png" alt="" class="im4">
         </div>
-        <div class="block2">
-            <img src="img/our_amazing_team/bg.png" alt="" class="photo">
-            <p class="title1">Rico Massimo</p>
-            <p class="title2">Coder</p>
-            <img src="img/our_amazing_team/twit.png" alt="" class="twit">
-            <img src="img/our_amazing_team/f.png" alt="" class="f">
-            <img src="img/our_amazing_team/g+.png" alt="" class="gplus">
-        </div>
-        <div class="block3">
-            <img src="img/our_amazing_team/bg.png" alt="" class="photo">
-            <p class="title1">Uku Mason</p>
-            <p class="title2">Graphic Designer</p>
-            <img src="img/our_amazing_team/twit.png" alt="" class="twit">
-            <img src="img/our_amazing_team/f.png" alt="" class="f">
-            <img src="img/our_amazing_team/g+.png" alt="" class="gplus">
-        </div>
-        <p class="text">Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt proin iaculis.</p>
     </div>
     <div class="con" id="contact">
-        <img src="img/our_amazing_team/envato.png" alt="" class="im1">
-        <img src="img/our_amazing_team/wordpress.png" alt="" class="im2">
-        <img src="img/our_amazing_team/tuts-.png" alt="" class="im3">
-        <img src="img/our_amazing_team/microlancer-copy.png" alt="" class="im4">
-    </div>
-    <div class="contact">
-        <div class="wrapper"></div>
-            <div class="head">
-                <p class="title1">Contact us</p>
-                <p class="title2">Proin iaculis purus consequat sem cure.</p>
+        <div class="map">
+            <div class="wrap">
+                <p class="title1 wow fadeIn" data-wow-offset="100">Contact us</p>
+                <p class="title2 wow fadeIn" data-wow-offset="100">Proin iaculis purus consequat sem cure.</p>
+                <div class="left wow zoomIn" data-wow-offset="250">  
+                    <input type="name" class="name" placeholder="YOUR NAME *">
+                    <input type="email" class="email"  placeholder="YOUR E-MAIL *">
+                    <input type="text" class="name1" placeholder="SUBJECT">
+                </div>
+                <div class="right wow zoomIn" data-wow-offset="250">
+                    <textarea class="textarea" placeholder="YOUR MESSAGE *"></textarea>
+                </div>
+                <div class="btn" >
+                    <input type="submit" class="submit wow fadeIn" data-wow-offset="200" value="SEND MASSAGE">
+                </div>
             </div>
-            <form action="" class="form">
-                <input type="name" class="name" placeholder="YOUR NAME *">
-                <input type="email" class="email"  placeholder="YOUR E-MAIL *">
-                <input type="text" class="name1" placeholder="SUBJECT">
-                <textarea class="textarea" placeholder="YOUR MESSAGE *"></textarea>
-                <input type="submit" class="submit" value="SEND MASSAGE">
-            </form>
+        </div>
     </div>
     <div class="footer">
-        <p class="text">© Copyright 2014 FreebiesXpress.com</p>
-        <a href="#">
-            <img src="img/footer/twitter.png" alt="" class="t">    
-        </a>
-        <a href="#">
-            <img src="img/footer/f.png" alt="" class="fe">   
-        </a>
-        <a href="#">
-            <img src="img/footer/g.png" alt="" class="g">  
-        </a>
-    </div>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/script.js"></script>
+        <div class="wrap">   
+         <div class="des">
+                <p class="text">© Copyright 2014 FreebiesXpress.com</p>
+            </div> 
+           <div class="aa">
+                <a href="#">
+                    <img src="img/footer/twitter.png" alt="" class="t">    
+                </a>
+                <a href="#">
+                    <img src="img/footer/f.png" alt="" class="fe">   
+                </a>
+                <a href="#">
+                    <img src="img/footer/g.png" alt="" class="g">  
+                </a>
+            </div>
+        </div>
+    </div>   
+    <script src="js/script.js"></script> 
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
