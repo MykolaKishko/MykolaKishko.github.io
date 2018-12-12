@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+   
+  
+	
+</head>
+<body>
+    <div class="content">
+        <h1>Scroll &#x2193;</h1>
+    </div>
+    
+    <div class="parallax-wrapper">
+        <div class="parallax"></div>
+    </div>
+    
+    <div class="content">
+        <h1>Scroll</h1>
+    </div>
+    
+    <div class="parallax-wrapper">
+        <div class="parallax"></div>
+    </div>
+     <div class="content">
+        <h1>Scroll &#x2191;</h1>
+    </div>
+</body>
+    <script>
+        function parallaxEffect() {
+            var parallax = $('.parallax');
+            $(window).on('scroll', function() {    
+               var scrolled = $(window).scrollTop(); 
+               parallax.css('transform', 'translateY(' + scrolled * 0.4 + 'px');     
+            });   
+        }
+        $(parallaxEffect);
+        
+    </script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

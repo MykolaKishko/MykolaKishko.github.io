@@ -1,0 +1,42 @@
+body {
+    height: 200vh;
+}
+
+.content {
+    background: aqua ;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+
+.parallax-wrapper {
+    height: 450px;
+    overflow: hidden;
+}
+
+.parallax-wrapper .parallax {
+    position: relative;
+    z-index: -1;
+    height: 1200px;
+    background-image: url(image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: -550px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
