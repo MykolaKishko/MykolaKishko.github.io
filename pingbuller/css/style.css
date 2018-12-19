@@ -640,11 +640,11 @@ footer .wrapper p span{
         text-align: center;
         text-decoration: none;
         transform: 0.3s;
-        margin: 7px auto;         
+        margin: 7px auto 7px auto;         
     }
     .menu .links a:hover{
-        border-bottom: 1px solid #fff;
-        transform: 0.3s;
+        border-bottom: 5px solid #edbfff;
+        transform: 0.3s;    
     }  
     .menu-item{
         display: block;
