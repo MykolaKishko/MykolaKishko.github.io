@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Editor App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons8-edit-file-48.png" type="img/png"> 
+</head>
+<body>
+    <div class="preloader" id="preloader">
+        <div class="container" id="container">
+            <p id="text">TEA</p>        
+        </div>
+    </div>
+    <div class="login_panel" id="loginPanel">
+        <div class="container">
+            <img src="https://img.icons8.com/ios/100/531ABE/user-male-circle.png">
+            <h1>Login</h1>     
+                <input id="login" class="input_log" type="text" placeholder="admin">
+                <input id="password" class="input_log" type="password" placeholder="admin">              
+            <button id="log">Enter</button>
+        </div> 
+    </div> 
+    <div class="logo">
+        <p>TextEditorApp</p>
+        <hr>
+    </div>
+    <div id="bg" class="bg"></div>
+    <div class="wrap" id="wrap" >
+        <div class="container">   
+           <section class="content" id="content">
+               <p class="p" id="logoText">
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam velit in ex eius asperiores. Temporibus quidem, iusto natus reprehenderit quia quibusdam quos a. Soluta asperiores odit hic quam nemo repudiandae ipsa animi possimus ratione consectetur fugit officiis optio, necessitatibus, veniam autem laboriosam, similique ea, atque! Eligendinecessitatibus possimus dignissimos voluptas.voluptatibus blanditiis distinctio est eius adipisci voluptatum, dolore dolores id ducimus nihil reprehenderit, laudantium magnam consequuntur aspernatur. Facilis incidunt tempora eius, debitis, officiis voluptates sequi, nisi accusantium consequatur deleniti qui at odio, commodi consequuntur. Maiores eaque nesciunt pariatur rem dolorum laboriosam asperiores! Aspernatur.
+                </p>
+            </section>
+           <section class="option_block">
+                <button id="editBtn">Edit</button>
+                <button id="styleBtn">Style</button>
+                <button id="lockBtn">Lock</button>
+                <button id="exitBtn"></button>
+            </section>
+            <section class="placeholder">
+                <div class="pl_menu" id="plMenu">
+                    <textarea class="pl_code" id="plCode">
+                    </textarea>
+                    <button id="saveBtn" class="save">Save</button>
+                    <button id="addBtn" class="add_b">Add</button>
+                    <button id="closeBtn">Close</button>
+                </div>
+            </section> 
+        </div>
+    </div>   
+    <div class="style" id="style">
+        <p class="close" id="close">&times;</p>
+        <form name="f_size" class="f_size" action="#">Text size:
+            <input id="fs12" name="radio" class="radio" type="radio" value="12">
+            <label for="fs12">12pt</label>
+            <input id="fs14" name="radio" class="radio" type="radio" value="14">
+            <label for="fs14">14pt</label>
+            <input id="fs16" name="radio" class="radio" type="radio" value="16">
+            <label for="fs16">16pt</label>
+            <input id="fs18" name="radio" class="radio" type="radio" value="18">
+            <label for="fs18">18pt</label>
+            <input id="fs20" name="radio" class="radio" type="radio" value="20" checked>
+            <label for="fs20">20pt</label>
+        </form>
+        <br>
+        <form name="list" id="list" action="#">
+            <label for="sel" class="sel">Font family:</label>
+            <select name="sel" id="sel">
+                <option value="Times New Roman">Times New Roman</option>
+                <option selected value="Arial">Arial</option>
+                <option value="Tahoma">Tahoma</option>
+                <option value="Verdana">Verdana</option>
+            </select>
+        </form>
+        <br> 
+        <button id="color" class="color">Color</button>
+        <button id="bgColor" class="bg_color">BgColor</button>
+        <br>
+        <div id="colorBank" class="color_bank"> </div>
+        <input type="checkbox" name="bold" id="bold">
+        <label for="bold" class="bold">Bold text</label>
+        <input type="checkbox" name="italic" id="italic">
+        <label for="italic" class="italic">Italic text</label>
+    </div>
+    <div class="add" id="add">
+        <p class="close" id="closeAdd">&times;</p>
+        <h1>Choose what to add:</h1>
+        <input id="tableR" type="radio" class="radio" name='radio' checked>
+        <label for="table">Table</label>
+        <input id="listR" type="radio" class="radio" name='radio'>
+        <label for="list">List</label>  
+        <form name='table' id="table" class="table">
+            <label for="row">Input count of row:</label>
+            <input id="row" class="inputT" type="number" required maxlength="2" min="1" max="99">
+            <br>
+            <label for="column">Input count of column:</label>
+            <input id="column" class="inputT" type="number"  required maxlength="2" min="1" max="99">
+            <h3>Table style:</h3>
+            <label for="cellWidth">Input width of cell:</label>
+            <input id="cellWidth" class="inputT" type="number"  required maxlength="2" min="1" max="99">
+            <br>
+            <label for="cellHeight">Input height of cell:</label>
+            <input id="cellHeight" class="inputT" type="number"  required maxlength="2" min="1" max="99">
+            <div class="wrap"> 
+                <label for="bWidth" id="bWidthL">Border width:</label>         
+                <input id="bWidth" class="inputT" type="number"  required maxlength="2" min="1" max="99">
+                <form name="bType" class="forbBType">   
+                    <label for="bType" id="bTypeL">Border type:</label>
+                    <select name="sel" id="bType">
+                        <option selected value="solid">Solid</option>
+                        <option value="dotted">Dotted</option>
+                        <option value="dashed">Dashed</option>
+                        <option value="double">Double</option>
+                    </select>
+                </form>
+                <form name="bColor" class="formBgColor">
+                    <label for="bColor" class="sel">Border collor:</label>
+                    <select name="sel" id="bColor">
+                        <option selected value="red">Red</option>
+                        <option value="blue">Blue</option>
+                        <option value="orange">Orenge</option>
+                        <option value="green">Green</option>
+                    </select>
+                </form>
+            </div>
+            <input id="createTable" type="submit" value="Create">
+            <input id="previewT" type="button" value="Preview">   
+        </form>
+        <form name='addList' id="addList" class="addList">    
+            <div class="wrap">
+                <label for="liNumb">Input count of list items:</label>
+                <input id="liNumb" type="number" class="li_numb inputL" required maxlength="2" min="1" max="99">
+            </div>
+            <form id="lType" name="lType">
+                <label for="listType" class="listType">Type of list:</label>
+                <select  name="listType" id="listType">
+                    <option selected> </option>
+                    <option value="ol">Number</option>
+                    <option value="ul">Mark</option>     
+                </select>
+            </form>     
+            <form id="nType" name="nType">
+                <label for="nubmType" class="nubmType">Type of numner:</label>
+                <select name="numbType" id="nubmType" >
+                    <option id="arab" value="1">Arabic rumbers</option>
+                    <option id="rome" value="I">Rome numbers</option>
+                    <option id="lett" value="A">Letters</option>
+                </select>
+            </form>
+            <form id="mType" name="mType" >
+                <label for="markType" class="markType">Type of mark:</label>
+                <select name="markType" id="markType">
+                    <option id="" value="circle">Circle</option>
+                    <option id="" value="disc">Disc</option>
+                    <option id="" value="square">Square</option>
+                </select>
+            </form>
+            <input type="submit" value="Create" id="createList">
+            <input type="submit" value="Preview" id="previewL"> 
+        </form>            
+    </div>
+    <div id="lock" class="lock">
+       <img id="lockImg" src="https://img.icons8.com/metro/100/531ABE/lock.png">
+       <img id="lockImgRed" src="https://img.icons8.com/metro/100/c10000/lock.png"> 
+       <img id="unlockImg" src="https://img.icons8.com/metro/100/21D342/unlock.png">  
+       <h3 class="lockT" id="lockT">Enter your pasword:</h3>
+       <input type="password" class="passwordLock" id="passwordLock"> 
+       <button id="applyBtn">Unlock</button>       
+    </div>
+    <div class="preview" id="preview">
+        <div id="previewBody"></div>
+        <textarea id="pContent"></textarea>      
+    </div>
+    <div id="modalBlock">
+        <div id="modalWindow">
+            <p id="closeMW">X</p>
+            <p id="textMW">Enter content!</p>
+        </div>
+    </div>
+    
+  
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
